@@ -1,0 +1,589 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1050px !important;
+}
+
+.main-header {
+    background: url("https://i.ibb.co/wrq6x0q/herocover.png") 0% 0% / cover no-repeat;
+    height: 1000px;
+}
+
+.header {
+    line-height: 91px;
+}
+
+.header .logo img {
+    width: 100px;
+}
+
+.header ul li {
+    display: inline-block;
+}
+
+.header ul li a {
+    display: inline-block;
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
+.header .buttons .btn1 {
+    color: rgb(150, 187, 124);
+    margin-right: 30px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header .buttons .btn2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(150, 187, 124);
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header .buttons .btn2::after {
+    content: "";
+    font: var(--fa-font-solid);
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+}
+
+.main-banner {
+    margin-top: 246px;
+}
+
+.main-banner .text {
+    z-index: 99;
+}
+
+.banner .text h5 {
+    line-height: 24px;
+    font-weight: 700;
+    color: rgb(150, 187, 124);
+    font-size: 16px;
+}
+
+.banner .text h1 {
+    font-size: 58px;
+    line-height: 80px;
+    font-weight: 700;
+    padding: 20px 0px;
+    width: 50%;
+}
+
+.banner .text h4 {
+    line-height: 30px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(115, 115, 115);
+}
+
+.banner .text .btn1 {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 15px 30px;
+    background-color: rgb(150, 187, 124);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.banner .text .btn2 {
+    color: rgb(150, 187, 124);
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    border: 2px solid rgb(150, 187, 124);
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+.banner .text .button {
+    margin-top: 50px;
+}
+
+.services {
+    margin-top: -100px;
+}
+
+.services .service {
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    padding: 35px 40px;
+    margin-right: 30px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 13px 19px 0px;
+}
+
+.services .service:last-child {
+    margin-right: 0px;
+}
+
+.services .service h3 {
+    color: rgb(37, 43, 66);
+    line-height: 32px;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0px 0px;
+}
+
+.services .service span {
+    padding: 1px 25px;
+    background-color: rgb(231, 64, 64);
+    display: inline-block;
+    margin: 20px 0px;
+}
+
+.services .service p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(115, 115, 115);
+    line-height: 21px;
+}
+
+/* package section  */
+
+.packagesSection {
+    padding: 160px 0px;
+}
+
+.packageLeft {
+    width: 50%;
+}
+
+.packageRight {
+    width: 50%;
+}
+
+.packageRight .text {
+    margin: 80px 0px;
+    padding-left: 122px;
+}
+
+.packageRight span {
+    background-color: rgb(231, 64, 64);
+    width: 94px;
+    height: 7px;
+    display: inline-block;
+}
+
+.packageRight h2 {
+    color: rgb(37, 43, 66);
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    margin: 35px 0px;
+}
+
+.packageRight p {
+    color: rgb(115, 115, 115);
+    margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+
+.packageRight a {
+    display: block;
+    color: rgb(150, 187, 124);
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 700;
+}
+
+.packagesSection-2 {
+    padding: 150px 0px;
+}
+
+.packagesSection-2 .packageRight {
+    width: 55%;
+}
+
+.packagesSection-2 .packageRight .text {
+    padding: 0px;
+}
+
+.packagesSection-2 .packageRight .text h2 {
+    font-size: 40px;
+}
+
+.packagesImg {
+    width: 45%;
+}
+
+.packagesImg .image {
+    width: 513px;
+    height: 370px;
+    background: linear-gradient(rgba(0, 0, 0, 0) 14.58%, rgba(56, 56, 56, 0.84) 100%) 0% 0% / cover, url("https://i.ibb.co/nmJvGGz/features-11-video-thumb.png");
+    position: relative;
+    border-radius: 20px;
+}
+
+.packagesImg .image .centerDiv {
+    height: 100px;
+    width: 100px;
+    line-height: 113px;
+    background-color: rgb(150, 187, 124);
+    position: absolute;
+    top: 36%;
+    left: 39%;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.packagesImg .image .centerDiv::after {
+    content: "\f04b";
+    font: var(--fa-font-solid);
+    color: rgb(255, 255, 255);
+    font-size: 28px;
+    margin-left: 4px;
+}
+
+.serviceSection {
+    padding: 100px 0px;
+}
+
+.serviceSection .headerText {
+    margin-bottom: 100px;
+}
+
+.serviceSection .headerText h6 {
+    color: rgb(150, 187, 124);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.serviceSection .headerText h2 {
+    color: rgb(37, 43, 66);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.serviceSection .headerText p {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.product .image {
+    position: relative;
+}
+
+.product .image p span {
+    background-color: rgb(231, 64, 64);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 2px 10px;
+}
+
+.product {
+    position: relative;
+    width: 25%;
+}
+
+.product .icon {
+    position: absolute;
+    top: 78%;
+    left: 18%;
+}
+
+.product .icon span {
+    height: 42px;
+    width: 42px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 42px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.productContent {
+    padding: 25px;
+}
+
+.productContent p {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(150, 187, 124);
+    line-height: 24px;
+}
+
+.productContent p span {
+    background-color: rgb(45, 64, 89);
+    padding: 5px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    margin-left: 20px;
+}
+
+.productContent p span i {
+    color: rgb(255, 206, 49);
+    font-weight: 700;
+}
+
+.productContent h5 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.productContent .text {
+    color: rgb(115, 115, 115);
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.productContent h6 {
+    font-size: 14px;
+    color: rgb(115, 115, 115);
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.productContent h6 span i {
+    height: 16px;
+    width: 16px;
+}
+
+.productContent h5 span {
+    line-height: 24px;
+    color: rgb(189, 189, 189);
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 5px;
+}
+
+.productContent h5.text {
+    color: rgb(255, 171, 113);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.productContent a {
+    color: rgb(150, 187, 124);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    border: 1px solid rgb(150, 187, 124);
+    padding: 10px 20px;
+    border-radius: 37px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+
+/* testimonial section */
+
+.testimonialSection {
+    padding: 120px;
+}
+
+.headerText {
+    margin-bottom: 100px;
+}
+
+.headerText h6 {
+    color: rgb(150, 187, 124);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.headerText h2 {
+    color: rgb(37, 43, 66);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.headerText p {
+    color: rgb(115, 115, 115);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.course{
+    width: 50%;
+}
+.course img {
+    width: 120px;
+    border-radius: 50%;
+}
+.course p {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(115, 115, 115);
+    line-height: 20px;
+    margin: 0;
+}
+
+.course span i {
+    color: rgb(243, 205, 3);
+    font-weight: 700;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+.course .star {
+    font-weight: 500 !important;
+}
+.course .text {
+    padding: 30px;
+}
+
+.course h5 {
+    font-weight: 700;
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
+}
+
+.course h6 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: rgb(115, 115, 115);
+}
+
+
+/* form section */
+
+.formSection{
+    padding: 160px 0;
+    background-color: #fff2f3;
+}
+.headerText h3{
+    color: #252B42;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+.formSection .headerText{
+    margin-bottom: 80px !important;
+}
+.formSection .form .input{
+    width: 575px;
+    padding: 15px;
+    color: #737373;
+    font-size: 15px;
+    outline: none;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #E7E7E7;
+    border-right: none;
+}
+.formSection .form .btn{
+    padding: 15px 26px;
+    background-color: #96bb7c;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 0 5px 5px 0 !important;
+    margin-left: -3px;
+}
+
+
+
+/* footerTop section */
+
+.footerTopSection{
+    padding: 50px 0;
+}
+
+.footerSections .section{
+    width: 17%;
+}
+.footerSections .section2{
+    width: 32%;
+}
+.footerSections .section h5{
+    color: #252B42;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footerSections .section ul{
+    margin-left: -2rem;
+}
+.footerSections .section ul li{
+    display: block;
+    list-style: none;
+    margin-bottom: 8px;
+}
+.footerSections .section ul li a{
+    display: block;
+    color: #737373;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 700;
+
+}
+.icon2{
+    color: #96bb7c;
+    width: 24px;
+    height: 26px;
+    font-size: 25px;
+}
+.footerSections .section2 span{
+    margin-left: 29px;
+    display: block;
+}
+
+
+
+/* footer section */
+
+.footerSection{
+    padding: 25px 0;
+    background-color: #fafafa;
+}
+.footerLeft{
+    line-height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #737373;
+    margin: 0;
+}
+.footerRight .icon2{
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 24px;
+}
